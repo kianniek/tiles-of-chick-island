@@ -1,0 +1,4 @@
+IterateRuleLSystem("AddDecorationsToGrass")
+IterateRuleLSystem("AddDecorationsToDirt")
+IterateRuleLSystem("AddDecorationsToWater")
+IterateRuleLSystem("AddDecorationsToSand")
