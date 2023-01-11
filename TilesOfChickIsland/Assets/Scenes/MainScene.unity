@@ -893,7 +893,7 @@ PrefabInstance:
     - target: {fileID: 2164446518759817195, guid: 1b6e988ce4b9cac4ab4ddbfe2ad84a4a, type: 3}
       propertyPath: lvlBaseBitmap
       value: 
-      objectReference: {fileID: 2800000, guid: 628ddb974baa4e844bdf52f7018f14f8, type: 3}
+      objectReference: {fileID: 2800000, guid: 0618bcc71ace7224f918fffd307f506a, type: 3}
     - target: {fileID: 2164446518759817195, guid: 1b6e988ce4b9cac4ab4ddbfe2ad84a4a, type: 3}
       propertyPath: cameraController
       value: 
@@ -901,7 +901,7 @@ PrefabInstance:
     - target: {fileID: 2164446518759817195, guid: 1b6e988ce4b9cac4ab4ddbfe2ad84a4a, type: 3}
       propertyPath: lvlDecorationsBitmap
       value: 
-      objectReference: {fileID: 2800000, guid: 8f214e060d03c5140a02f31dd8e9cbe0, type: 3}
+      objectReference: {fileID: 2800000, guid: eb1e5447bf5ee7047a69e9d29a6f80ea, type: 3}
     - target: {fileID: 2164446518759817195, guid: 1b6e988ce4b9cac4ab4ddbfe2ad84a4a, type: 3}
       propertyPath: lvlExpressionFileName
       value: lvl2
