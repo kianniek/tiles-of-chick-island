@@ -74,7 +74,7 @@ public class GameManager : MonoBehaviour
 
         // settings ui is only used in a build
 #if UNITY_EDITOR
-        settingsUI.gameObject.SetActive(false);
+        //settingsUI.gameObject.SetActive(false);
 #else
         settingsUI.gameObject.SetActive(true);
 #endif

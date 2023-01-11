@@ -430,6 +430,18 @@ public class TileMap : MonoBehaviour
         // return the heuristic
         return distance * 10;
     }
+    internal float GetEuclideanDistance(Tile tile1, Tile tile2)
+    {
+        // calculate the minimal distance walking horizontally / vertically and diagonally
+        float distanceX = /*Mathf.Abs*/(tile1.transform.position.x - tile2.transform.position.x);
+        float distanceY = /*Mathf.Abs*/(tile1.transform.position.z - tile2.transform.position.z);
+
+        float distanceSquareX = (float)Math.Pow(distanceX, 2);
+        float distanceSquareY = (float)Math.Pow(distanceY, 2);
+        float distance = Mathf.Sqrt(distanceSquareX + distanceSquareY);
+        // return the heuristic
+        return distance;
+    }
 
     /// <summary>
     /// Get the requested amount of free tiles around the start tile. 
